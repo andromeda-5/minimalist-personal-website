@@ -1,0 +1,51 @@
+@font-face {
+	font-family: "MinervaModern-Regular";
+	src: url("./Minerva-ModernRegular.tff") format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Butler_Black";
+	src: url("./Butler/Butler_Black.otf");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'canvas-regular';
+	src: url('canvas-regular.otf');
+	font-style: normal;
+}
+
+body {
+	font-family: 'canvas-regular';
+	font-weight: 1000;
+}
+
+.container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.menu-bar > *{
+	margin-left: 10px;
+}
+
+.navbar {
+	font-size: 1.2rem;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+h5 {
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+}
